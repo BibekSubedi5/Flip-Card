@@ -1,9 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <div className=" max-w-screen bg-blue-400 rounded-b-lg p-4 top-0 px-10 flex justify-between sticky z-10 shadow-sm shadow-blue-600">
-      <div>Logo</div>
+      <div>
+        <Link to={"/"}>Logo</Link>
+      </div>
       <div className="flex gap-2">
         <input
           type="text"
